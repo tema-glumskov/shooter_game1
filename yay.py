@@ -59,7 +59,7 @@ class GameSprite(sprite.Sprite):
 
 # настройка игрового окна
 window = display.set_mode((700, 500))
-display.set_caption('Шутер')
+display.set_caption('Shooter Game')
 background = transform.scale(image.load('background3.png'), (700, 500))
 
 # создание игровых объектов
